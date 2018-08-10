@@ -1,0 +1,22 @@
+{
+  "extends": ["tslint-react", "arui-presets-ts/tslint"],
+  "rules": {
+    "indent": [true, "spaces", 2],
+    "ter-indent": [
+      true,
+      2,
+      { "SwitchCase": 1 }
+    ],
+    "jsx-alignment": true,
+    "jsx-equals-spacing": [true, "never"],
+    "jsx-no-bind": true,
+    "jsx-no-lambda": false,
+    "jsx-wrap-multiline": false,
+    "no-console": [true, "log"],
+    "space-before-function-paren": [true, {
+      "anonymous": "always",
+      "named": "never",
+      "asyncArrow": "always"
+    }]
+  }
+}
